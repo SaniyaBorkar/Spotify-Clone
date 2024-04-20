@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad&family=Chakra+Petch:wght@300;400&family=Maven+Pro&family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300;1,500&family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="spotify">
+                    <img src="./assets/spotify-icon.jpg">
+                    <p>Spotify</p>
+                </div>
+                <div class="nav-option"  style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png">
+                        <a href="#">Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    
+                </div>
+                <div class="boxes">
+                    <div class="lib-box">
+                        <p class="box-p1">Create you first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="lib-box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on newer episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-arrows">
+                    <div><img id="img1" src="./assets/backward_icon.png"></div>
+                    <div><img id="img2" src="./assets/forward_icon.png"></div>
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item">Explore Premium</button>
+                    <button class="btn-install nav-item"><i class="fa-regular fa-circle-down"></i> &nbsp;Install App</button>
+                    <div class="nav-item btn-user"><i class="fa-regular fa-user"></i></div>
+                </div>
+                
+            </div>
+            <div class="cards">
+                
+                <h2>Recently played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/daily mix 1.jpg" >
+                        <p class="card-title">Daily Mix 1</p>
+                        <p class="card-info"> Billie Eilish, The Wekeend, Conan Gray...</p>
+                    </div>
+                </div>
+                <h2>Spotify Playists</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/lofi beats.jpg">
+                        <p class="card-title">lofi beats</p>
+                        <p class="card-info">chill beats, lofi vibes, new tracks every week...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/today's top hits.jpg">
+                        <p class="card-title">Today's Top Hits</p>
+                        <p class="card-info"> Jungkook is on top of the Hottest 50!</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/all out of 2020s.jpg">
+                        <p class="card-title">All Out of 2020s</p>
+                        <p class="card-info">The biggest songs of the 2020s.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/chillout lounge.jpg">
+                        <p class="card-title">Chillout lounge</p>
+                        <p class="card-info">Just lean back and enjoy relaxed beats.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/jazz in the background.jpg">
+                        <p class="card-title">Jazz in the Background</p>
+                        <p class="card-info"> Soft instrumental Jazz for all your activities.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/rockparty.jpg">
+                        <p class="card-title">Jazz in the Background</p>
+                        <p class="card-info"> Soft instrumental Jazz for all your activities.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/moodymix.jpg">
+                        <p class="card-title">Jazz in the Background</p>
+                        <p class="card-info"> Soft instrumental Jazz for all your activities.</p>
+                    </div>
+                </div>
+                <h2>Shows to try</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/friends.jpg">
+                        <p class="card-title">FRIENDS</p>
+                        <p class="card-info">Karin Karkar</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/rotten.jpg">
+                        <p class="card-title">Rotten mango</p>
+                        <p class="card-info">Stephanie Soo & Ramble</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/submitting to the alpha.jpg">
+                        <p class="card-title">Submitting to the alpha</p>
+                        <p class="card-info">Emilia Rose</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/thewizadliz.jpg">
+                        <p class="card-title">Thewizardliz</p>
+                        <p class="card-info">barbie</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/not your type.jpg">
+                        <p class="card-title">Not Your Type</p>
+                        <p class="card-info"> Not Your Type</p>
+                    </div>
+                </div>
+                <h2>Recently played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/not your type.jpg">
+                        <p class="card-title">Not Your Type</p>
+                        <p class="card-info"> Not Your Type</p>
+                    </div>
+                </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>    
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="./assets/daylight.jpg" class="playing">
+                <div class="singer">
+                    <p style="margin-bottom: 0.2rem;"><b>Daylight</b> </p>
+                    <p style="margin-top: 0; font-size: 0.8rem; opacity: 0.6;"> David Kushner</p>
+                </div>
+                
+                <i class="fa-solid fa-circle-plus addsong"></i>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time" style="font-size: 0.8rem;">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="total-time" style="font-size: 0.8rem;">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <img src="./assets/controls.png">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
